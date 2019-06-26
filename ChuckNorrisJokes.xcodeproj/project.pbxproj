@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7CCEB3EE22C3CC6100D1054C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEB3ED22C3CC6100D1054C /* AppDelegate.swift */; };
-		7CCEB3F022C3CC6100D1054C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCEB3EF22C3CC6100D1054C /* ViewController.swift */; };
 		7CCEB3F322C3CC6100D1054C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCEB3F122C3CC6100D1054C /* Main.storyboard */; };
 		7CCEB3F522C3CC6200D1054C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCEB3F422C3CC6200D1054C /* Assets.xcassets */; };
 		7CCEB3F822C3CC6200D1054C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCEB3F622C3CC6200D1054C /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		7CCEB3EA22C3CC6100D1054C /* ChuckNorrisJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCEB3ED22C3CC6100D1054C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7CCEB3EF22C3CC6100D1054C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7CCEB3F222C3CC6100D1054C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CCEB3F422C3CC6200D1054C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CCEB3F722C3CC6200D1054C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,21 @@
 		7CCEB3EC22C3CC6100D1054C /* ChuckNorrisJokes */ = {
 			isa = PBXGroup;
 			children = (
-				7CCEB3ED22C3CC6100D1054C /* AppDelegate.swift */,
-				7CCEB3EF22C3CC6100D1054C /* ViewController.swift */,
+				7CCEB3FF22C3CFB800D1054C /* Resources */,
 				7CCEB3F122C3CC6100D1054C /* Main.storyboard */,
+			);
+			path = ChuckNorrisJokes;
+			sourceTree = "<group>";
+		};
+		7CCEB3FF22C3CFB800D1054C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CCEB3ED22C3CC6100D1054C /* AppDelegate.swift */,
 				7CCEB3F422C3CC6200D1054C /* Assets.xcassets */,
 				7CCEB3F622C3CC6200D1054C /* LaunchScreen.storyboard */,
 				7CCEB3F922C3CC6200D1054C /* Info.plist */,
 			);
-			path = ChuckNorrisJokes;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CCEB3F022C3CC6100D1054C /* ViewController.swift in Sources */,
 				7CCEB3EE22C3CC6100D1054C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HLC2FMZN4;
-				INFOPLIST_FILE = ChuckNorrisJokes/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ChuckNorrisJokes/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2HLC2FMZN4;
-				INFOPLIST_FILE = ChuckNorrisJokes/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ChuckNorrisJokes/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
